@@ -47,3 +47,5 @@ models:
     BI:
       schema: "BI"
       +materialized: incremental
+      +incremental_strategy: 'merge'
+
